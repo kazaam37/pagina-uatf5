@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portal Estudiantil - UATF</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #f7f9fb;
+    }
+    .sidebar {
+      height: 100vh;
+      width: 250px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #1e2a38;
+      color: white;
+      padding: 15px;
+    }
+    .sidebar h4 {
+      margin-bottom: 30px;
+    }
+    .sidebar a {
+      color: white;
+      text-decoration: none;
+      display: block;
+      margin-bottom: 10px;
+    }
+    .main {
+      margin-left: 260px;
+      padding: 20px;
+    }
+    .logo {
+      width: 180px;
+      display: block;
+      margin: 0 auto;
+    }
+    .foto-perfil {
+      width: 150px;
+      height: 200px;
+      background-image: url('foto.PNG');
+      background-size: cover;
+      background-position: center;
+      border-radius: 10px;
+      display: block;
+      margin: 0 auto 20px;
+    }
+    .info-box {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+    }
+    .info-left {
+      width: 35%;
+      text-align: center;
+    }
+    .info-right {
+      width: 60%;
+    }
+    .table th, .table td {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <div class="text-center">
+      <div class="foto-perfil"></div>
+      <h6 class="mt-2">BIENVENIDO,</h6>
+      <strong>KAZAAM ALEXANDER</strong>
+    </div>
+    <hr />
+    <h4>U.A.T.F.</h4>
+    <a href="#">PRINCIPAL</a>
+    <a href="#">BECAS</a>
+    <a href="#">EXTENSIÓN LIBRE</a>
+    <a href="#">MATRÍCULAS</a>
+    <a href="#">TRÁMITES</a>
+  </div>
+
+  <div class="main">
+    <h4 class="text-center">MATERIAS PROGRAMADAS</h4>
+    <p class="text-center">GESTIÓN 1/2025</p>
+    <div class="info-box">
+      <div class="info-left">
+        <div class="foto-perfil"></div>
+      </div>
+      <div class="info-right">
+        <p><strong>FACULTAD:</strong> VICERRECTORADO</p>
+        <p><strong>CARRERA:</strong> INGENIERIA DE SISTEMAS</p>
+        <p><strong>R.U.:</strong> 96010</p>
+        <p><strong>C.I.:</strong> 8577269</p>
+        <p><strong>UNIVERSITARIO(A):</strong> KAZAAM ALEXANDER VARGAS CONDORI</p>
+        <p><strong>FECHA PROGRAMACION:</strong> 2025-03-28 19:09:01</p>
+      </div>
+    </div>
+
+    <table class="table table-bordered mt-4">
+      <thead class="table-secondary">
+        <tr>
+          <th>SIGLA</th>
+          <th>MATERIA</th>
+          <th>GRUPO</th>
+          <th>1ER PARCIAL</th>
+          <th>2DO PARCIAL</th>
+          <th>3ER PARCIAL</th>
+          <th>PROM. PARCIALES</th>
+          <th>PROM. PRACTICAS</th>
+          <th>PROM. LABORATORIO</th>
+          <th>EX FINAL</th>
+          <th>PROM. EX FINAL</th>
+          <th>NOTA FINAL</th>
+          <th>2DO TURNO</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>SIS737</td>
+          <td>SEGURIDAD DE SISTEMAS</td>
+          <td>2</td>
+          <td>0</td><td>0</td><td>0</td>
+          <td>0</td><td>0</td><td>0</td>
+          <td>0</td><td>0</td><td>0</td><td>0</td>
+        </tr>
+        <tr>
+          <td>SIS645</td>
+          <td>SIMULACIÓN DE SISTEMAS</td>
+          <td>1</td>
+          <td>0</td><td>0</td><td>0</td>
+          <td>0</td><td>0</td><td>0</td>
+          <td>0</td><td>0</td><td>0</td><td>0</td>
+        </tr>
+        <tr>
+          <td>SIS634</td>
+          <td>MODELOS ECONÓMICOS</td>
+          <td>1</td>
+          <td>0</td><td>0</td><td>0</td>
+          <td>0</td><td>0</td><td>0</td>
+          <td>0</td><td>0</td><td>0</td><td>0</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
